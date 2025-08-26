@@ -3,7 +3,7 @@ phases:
   build:
     commands:
       - pip install -r requirements.txt -t .
-      - aws cloudformation package --template-file template.yml --output-template-file template-out.yml --s3-bucket s3-course-end-proj-simplilearn-26082025
+      - aws cloudformation package --template-file template.yml --output-template-file template-out.yml --s3-bucket s3-course-end-proj-simplilearn-27082025
 
 artifacts:
   files:
